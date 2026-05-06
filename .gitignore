@@ -1,0 +1,50 @@
+# =========================
+# Build outputs
+# =========================
+/build/
+/app/build/
+/app/release/
+
+*.apk
+*.aab
+*.dm
+output-metadata.json
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+**/build/
+local.properties
+
+# =========================
+# Android Studio
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+
+# =========================
+# Keystore
+# =========================
+*.jks
+*.keystore
+
+# =========================
+# Log / temp files
+# =========================
+*.log
+.DS_Store
+Thumbs.db
+
+# =========================
+# Kotlin / Java compile artifacts
+# =========================
+*.class
+
+# =========================
+# Firebase / secrets
+# =========================
+google-services.json
